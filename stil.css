@@ -1,0 +1,19 @@
+.Blok1 {
+	border: solid 2px red; 
+	width: 200px;
+	float: left; 
+	padding: 10px; 
+}
+
+.Blok2{
+	border: dashed 3px green;
+	width: 250px; 
+	float: left;
+	margin: 10px
+}
+td {
+	text-align: center !important; /*öncelikli css sayfasıdır */
+}
+.ortala {
+	text-align: center;
+}

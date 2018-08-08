@@ -1,0 +1,125 @@
+<!DOCTYPE html>  
+<html>
+<head>
+	<meta charset="utf-8">  <!--TR karakter sorununu çözer -->
+	<title> Kod Adı 2023</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+	Sevilay Teryakioğlu
+	<br>  <!--Alt satıra geçme kodu -->
+	<b>Sevilay Teryakioğlu</b>
+	<br>
+	<i> Sevilay Teryakioğlu</i> <!--i yazıp taba basınca skodeun devamı çıkıyor -->
+	<br>
+	<b><i>Sevilay Terkayioğlu</i></b> <!--i hem italik hem kalın -->
+	<br>
+	<u>Sevilay Teryakioğlu</u>
+	<br>
+	<s>Ortasını çizme kodu 99.99 </s> TL
+	<br>
+	<h1>En büyük başlık</h1>
+	<h6>En küçük başlık</h6>
+	<br>
+	&emsp;  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim &nbsp; &nbsp;&nbsp;&nbsp;ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. <p class="ortala"> &emsp; Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<abbr title="Türk Dil kurumu ">TDK</abbr>
+	<br>
+	4<sub>2</sub>
+	<br>
+	5<sup>2</sup>
+	<br>
+	<img width="30%" src="miraç.jpg">  <!--i height yazdığımızdaen boy oranını el ile girmemizi sağlar. bu şekilde otomatik ayarlıyor -->
+	<hr> <!--i satır boyunca ince uzun çizgi çeker-->
+	<a  target="_blank" href="http://www.kodadi2023.gsb.gov.tr"> Resmi Siteye Gtimek için Tıklayınız </a>
+	<!--i target="_blank" yeni sekmede açmaya yarar -->
+	<br>
+	<a  target="_blank" href="http://www.kodadi2023.gsb.gov.tr"><img width="30%" src="miraç.jpg"></a>
+	<br>
+	<a  target="_blank" href="miraç.jpg"><img width="30%" src="miraç.jpg"></a>
+	<br>
+	<span style="font-family: Arial; font-size: 15px; color: green "><b>Eğitimlerimize Hoşgeldiniz</b></span>
+	<!--i google a color picker yazıp renk kodlarına ulaşabiliriz -->
+	<br>
+	<ul type="circle">
+		<li>Hamdım</li>
+		<li>Yandım</li>
+		<li>Piştim</li>
+	</ul> 
+	<br>
+	<ol type="a">
+		<b><li>Hamdım</li>
+		<li>Yandım</li>
+		<li>Piştim</li></b>
+		
+	</ol> 
+	<br><!--i type nasıl sıralaman gerektiğini söyler. type hiç yazılmaz ise sayılı sıralama yapar -->
+	<br>
+	<!-- burası tablo kodları başlangıcı-->
+	<table border="5" width="500">
+		<tr>  <!-- satır-->
+			<th> Sıra No</th>  <!-- sütun-->
+			<th>Stok Adı</th>
+			<th>Stok Adedi</th>
+		</tr>
+		<tr>
+			<td >1</td>
+			<td >ananas</td> <!-- style="text-align: center;" yazdığımızda ortalarız ama css e bağladığımız için orda hepsini toplu olarak ortalıyor. -->
+			<td>1300 Kasa </td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">2</td>
+			<td style="text-align: center;">armut</td>
+			<td>500 kasa</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">3</td>
+			<td style="text-align: center;">kiraz</td>
+			<td>100 kasa</td>
+		</tr>
+
+	<!-- Form Kodları Başlangıcı  -->
+	<form method="post" action="islem.php">
+	</table>
+		<label for="ad">Adınız Soyadınız</label>
+		<br>
+		<input type="text" id=ad name="adsoyad" placeholder="adınızı ve soyadınızı giriniz" required="">
+		<br>
+		<br>
+		<label> Şifreniz </label>
+		<br>
+		<input type="password" name="sifre" placeholder="Şifrenizi Giriniz">
+		<br><br>
+		<label>E-Postanız</label>
+		<br>
+		<input type="email" name="eposta" placeholder="e postanızı giriniz">
+		<br><br>
+		<label>Doğum Tarihiniz</label>
+		<br>
+		<input type="date" name="D.T">
+		<br><br>
+		<label>Biyografiniz</label>
+		<br>
+		<textarea name="bio"></textarea>
+		<br><br>
+		<input type="submit" name="uyeformunugonder" value="Kaydı Gönder">
+
+
+	</form>
+	<hr>
+	<div style="border: dotted 4px blue; float: left; padding: 2px "> <!-- padding iç boşluk --> 
+		<div class="Blok1" >1.Blok</div>
+		<div class="Blok2" >2.Blok </div>
+		<div style="clear: left;"></div>
+	</div>
+
+
+
+
+<br><br><br><br><br><br>
+</body>
+</html>
