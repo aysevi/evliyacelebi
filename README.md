@@ -1,0 +1,2 @@
+# evliyacelebi
+git öğreniyorum
